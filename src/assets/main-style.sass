@@ -1,0 +1,97 @@
+*
+   margin: 0
+   padding: 0
+   box-sizing: border-box
+
+@mixin in-input
+   font-family: "Ysabeau Office", sans-serif
+   border: #CDA274 1px solid
+   padding-left: 5px
+   font-size: 17px
+   color: #4D5053
+
+.form-inputs
+   display: flex
+   margin: 3%
+   flex-direction: column
+   align-items: center
+   gap: 1vw
+   font-family: "Montserrat Alternates", sans-serif
+   font-weight: 300
+   color: #4D5053
+   font-size: 17px
+
+.field
+   background-color: #F4F0EC
+   padding: 3% 0 5% 0
+   width: 70%
+   display: flex
+   flex-direction: column
+   align-items: center
+   gap: 0.7vw
+   border-radius: 30px
+
+.form-info
+   width: 50%
+   display: flex
+   flex-direction: column
+   gap: 5px
+
+.title
+   font-family: "Ysabeau Office", sans-serif
+   font-weight: 600
+   color: #CDA274
+   font-size: 40px
+   padding-bottom: 3%
+
+input
+   @include in-input
+   border-radius: 5px
+
+select
+   @include in-input
+   border-radius: 7px
+   overflow: hidden
+   background-color: white
+
+.is-invalid
+   border: 1px #AF002A solid
+   box-shadow: 0 0 7px #AF002A
+
+.invalid-feedback
+   font-size: 10px
+   color: black
+
+input.number-phone
+   border: none
+   outline: none
+   // padding-left: -10px
+
+.code
+   display: flex
+   // width: 70%
+   border-radius: 7px
+   background-color: white
+   align-items: center
+   @include in-input
+
+.send-sms-box
+   display: flex
+   flex-direction: row
+   gap: 5px
+
+.button-create
+   margin: 0 auto
+   background-color: #CDA274
+   font-size: 15px
+   padding: 0.5em 1em
+   color: #F4F0EC
+   border: #CDA274 1px solid
+   border-radius: 7px
+   font-family: "Montserrat Alternates", sans-serif
+   cursor: pointer
+   width: 50%
+   margin-top: 1vw
+
+.clients
+   padding: 5px 10px

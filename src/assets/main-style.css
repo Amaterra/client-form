@@ -1,0 +1,59 @@
+.form-inputs {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #4D5053;
+}
+
+.field {
+  background-color: #F4F0EC;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  gap: 12px;
+}
+
+.title {
+  font-family: "Ysabeau Office", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #CDA274;
+  font-size: 40px;
+}
+
+input {
+  border: #CDA274 1px solid;
+  border-radius: 5px;
+  font-family: "Ysabeau Office", sans-serif;
+}
+
+select {
+  font-family: "Ysabeau Office", sans-serif;
+  border: #CDA274 1px solid;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.is-invalid {
+  border: 1px #AF002A solid;
+  box-shadow: 0 0 7px #AF002A;
+}
+
+.form-info {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.invalid-feedback {
+  font-size: 10px;
+  color: black;
+}/*# sourceMappingURL=variables.css.map */
